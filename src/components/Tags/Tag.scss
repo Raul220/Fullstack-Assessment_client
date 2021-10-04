@@ -1,0 +1,39 @@
+.tag-list {
+    list-style: none;
+    .tag-item {
+        margin-top: 10px;
+        .input-group {
+            .input-group-text {
+                background-color: transparent;
+                padding: 0;
+                border: none;
+                margin-right: 15px;
+            }
+            .span-item {
+                margin-right: 5px;
+                border-top-left-radius: 12px !important;
+                border-bottom-left-radius: 12px !important;
+                border-bottom-right-radius: 12px !important;
+                border-top-right-radius: 12px !important;
+                padding: 0 5px;
+                cursor: pointer;
+            }
+            .span-user-name {
+                background-color: #ADF0D9;
+                color: #1CB180;
+            }
+            .span-url {
+                background-color: #D6EBFF;
+                color: #178BFF;
+            }
+            .span-email {
+                background-color: #FFE6C7;
+                color: #F48900;
+            }
+            .span-hash-tag {
+                background-color: #DBC7FF;
+                color: #7231E6;
+            }
+        }
+    }
+}
